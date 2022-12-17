@@ -11,7 +11,7 @@ contract MyNFT is ERC721URIStorage, Ownable {
   using Counters for Counters.Counter;
   Counters.Counter private _tokenIds;
 
-  constructor() ERC721("THECUBES", "ACUBE") {}
+  constructor() ERC721("QUBIC7", "QUBE") {}
 
   function mintNFT(
     address recipient,
