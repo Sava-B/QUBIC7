@@ -1,5 +1,8 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 require("dotenv").config();
+require("@nomiclabs/hardhat-waffle");
+require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-ethers");
 
 const { API_URL, PRIVATE_KEY } = process.env;
 module.exports = {
